@@ -1,14 +1,10 @@
 import MainLayout from './../../layouts/main-layout';
+import RandomCard from './../../comps/randomcard';
 import data from '../../dataset/data.json';
 
 const Page = (props) => (
     <MainLayout>
-        <div className="card">
-            <div className="card-content">
-                <p className="title">SERVER : {props.get.judul}</p>
-                <p className="subtitle">{props.get.isi}</p>
-            </div>
-        </div>
+        <RandomCard judul={props.get.judul} isi={props.get.isi} />
     </MainLayout>
 )
 
