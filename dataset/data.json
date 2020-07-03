@@ -1,0 +1,17 @@
+[
+    {
+        "kode" : "abc",
+        "judul": "ABC",
+        "isi" : "Isi dari ABC"
+    },
+    {
+        "kode" : "def",
+        "judul": "DEF",
+        "isi" : "Isi dari DEF"
+    },
+    {
+        "kode" : "xyz",
+        "judul": "XYZ",
+        "isi" : "Isi dari XYZ"
+    }
+]

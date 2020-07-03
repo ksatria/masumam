@@ -1,0 +1,46 @@
+[
+    {
+        "link" : "/",
+        "text" : "Beranda"
+    },
+    {
+        "link" : "/about",
+        "text" : "Tentang Saya"
+    },
+    {
+        "link" : "/static",
+        "text" : "Static Rendering",
+        "child": [
+            {
+                "link" : "/static/abc",
+                "text" : "ABC"
+            },
+            {
+                "link" : "/static/def",
+                "text" : "DEF"
+            },
+            {
+                "link" : "/static/xyz",
+                "text" : "XYZ"
+            }
+        ]
+    },
+    {
+        "link" : "/server",
+        "text" : "Server-Side Rendering",
+        "child": [
+            {
+                "link" : "/server/abc",
+                "text" : "ABC"
+            },
+            {
+                "link" : "/server/def",
+                "text" : "DEF"
+            },
+            {
+                "link" : "/server/xyz",
+                "text" : "XYZ"
+            }
+        ]
+    }
+]

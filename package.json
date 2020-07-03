@@ -8,7 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bulma": "^0.9.0",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0-rc.2",
     "next": "9.4.4",
+    "popper": "^1.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
