@@ -42,5 +42,33 @@
                 "text" : "XYZ"
             }
         ]
+    },
+    {
+        "link" : "/profiles/static",
+        "text" : "Static API",
+        "child": [
+            {
+                "link" : "/profiles/static/male",
+                "text" : "Male"
+            },
+            {
+                "link" : "/profiles/static/female",
+                "text" : "Female"
+            }
+        ]
+    },
+    {
+        "link" : "/profiles/server",
+        "text" : "Server API",
+        "child": [
+            {
+                "link" : "/profiles/server/male",
+                "text" : "Male"
+            },
+            {
+                "link" : "/profiles/server/female",
+                "text" : "Female"
+            }
+        ]
     }
 ]

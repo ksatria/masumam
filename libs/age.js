@@ -5,3 +5,14 @@ export function getAge(dob){
 
     return Math.abs(age.getUTCFullYear() - 1970);
 }
+
+export function getDOB(dob){
+    let months = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+    let dobObj = new Date(dob);
+
+    let date = dobObj.getDate();
+    let month = months[dobObj.getMonth()];
+    let year = dobObj.getFullYear();
+
+    return `${date} ${month} ${year}`;
+}

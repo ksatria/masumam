@@ -7,7 +7,7 @@ const Footer = () => (
                     The tech stack behind this website: <a href="https://nextjs.org/">NextJS</a> | <a hrer="https://bulma.io/">Bulma CSS</a> | <a href="https://fontawesome.com/"><i className="fab fa-font-awesome"></i> Fontawesome</a>
                     <br />
 
-                    The APIs: <a href="https://joeschmoe.io/">Joe Schmoe</a>
+                    The APIs: <a href="https://joeschmoe.io/">Joe Schmoe</a> | <a href="https://randomuser.me/">Random User Generator</a>
                 </small>
             </p>
         </div>
