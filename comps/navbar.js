@@ -5,12 +5,12 @@ function Menu(props){
     let menu = props.data;
 
     if(menu.child === undefined){
-        return <Link href={menu.link} key={props.key}><a className="navbar-item">{menu.text}</a></Link>;
+        return <Link href={menu.link} as={menu.url === undefined ? menu.link : menu.url} key={props.keyval}><a className="navbar-item">{menu.text}</a></Link>;
     }
     else{
         return (
             <div className="navbar-item has-dropdown is-hoverable">
-                <Link href={menu.link} key={props.key}><a className="navbar-link">{menu.text}</a></Link>
+                <Link href={menu.link} key={props.keyval}><a className="navbar-link">{menu.text}</a></Link>
                 <div className="navbar-dropdown">
                     {menu.child.map((child,index2) => (
                         <Menu data={child} key={index2} />
@@ -39,7 +39,7 @@ const Navbar = () => (
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
                     {menus.map((menu,index) => (
-                        <Menu data={menu} key={index} />
+                        <Menu data={menu} keyval={index} />
                     ))}
                 </div>
                 

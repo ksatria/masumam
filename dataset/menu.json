@@ -12,15 +12,18 @@
         "text" : "Static Rendering",
         "child": [
             {
-                "link" : "/static/abc",
+                "link" : "/static/[kode]",
+                "url"  : "/static/abc",
                 "text" : "ABC"
             },
             {
-                "link" : "/static/def",
+                "link" : "/static/[kode]",
+                "url"  : "/static/def",
                 "text" : "DEF"
             },
             {
-                "link" : "/static/xyz",
+                "link" : "/static/[kode]",
+                "url"  : "/static/xyz",
                 "text" : "XYZ"
             }
         ]
@@ -30,15 +33,18 @@
         "text" : "Server-Side Rendering",
         "child": [
             {
-                "link" : "/server/abc",
+                "link" : "/server/[kode]",
+                "url"  : "/server/abc",
                 "text" : "ABC"
             },
             {
-                "link" : "/server/def",
+                "link" : "/server/[kode]",
+                "url"  : "/server/def",
                 "text" : "DEF"
             },
             {
-                "link" : "/server/xyz",
+                "link" : "/server/[kode]",
+                "url"  : "/server/xyz",
                 "text" : "XYZ"
             }
         ]
@@ -48,11 +54,13 @@
         "text" : "Static API",
         "child": [
             {
-                "link" : "/profiles/static/male",
+                "link" : "/profiles/static/[gender]",
+                "url"  : "/profiles/static/male",
                 "text" : "Male"
             },
             {
-                "link" : "/profiles/static/female",
+                "link" : "/profiles/static/[gender]",
+                "url"  : "/profiles/static/female",
                 "text" : "Female"
             }
         ]
@@ -62,11 +70,13 @@
         "text" : "Server API",
         "child": [
             {
-                "link" : "/profiles/server/male",
+                "link" : "/profiles/server/[gender]",
+                "url"  : "/profiles/server/male",
                 "text" : "Male"
             },
             {
-                "link" : "/profiles/server/female",
+                "link" : "/profiles/server/[gender]",
+                "url"  : "/profiles/server/female",
                 "text" : "Female"
             }
         ]
